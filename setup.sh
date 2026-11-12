@@ -11,14 +11,14 @@ BASHRC="${BASHRC:-$HOME/.bashrc}"
 
 mkdir -p "$CONFIG_DIR"
 
-curl -sL "https://raw.githubusercontent.com/rockberpro-dev/systemd-lsa/main/systemd-lsa.sh" -o "$INSTALL_PATH"
+curl -sL "https://raw.githubusercontent.com/rockberpro-labs/systemd-lsa/main/systemd-lsa.sh" -o "$INSTALL_PATH"
 
 if ! grep -qF "source \"$INSTALL_PATH\"" "$BASHRC" 2>/dev/null; then
     echo "" >> "$BASHRC"
     echo "source \"$INSTALL_PATH\"" >> "$BASHRC"
 fi
 
-curl -sL "https://raw.githubusercontent.com/rockberpro-dev/systemd-lsa/main/systemd-lsa-help.sh" -o "$HELP_PATH"
+curl -sL "https://raw.githubusercontent.com/rockberpro-labs/systemd-lsa/main/systemd-lsa-help.sh" -o "$HELP_PATH"
 chmod +x "$HELP_PATH"
 
 echo "systemd-lsa installed: $INSTALL_PATH"

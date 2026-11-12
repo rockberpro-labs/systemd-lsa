@@ -1,9 +1,9 @@
 # ==============================================================================
 # LSA — Logical Systemd Aliases
-# https://github.com/rockberpro-dev/systemd-lsa
+# https://github.com/rockberpro-labs/systemd-lsa
 #
 # Install:
-#   curl -sL https://raw.githubusercontent.com/rockberpro-dev/systemd-lsa/main/setup.sh | bash
+#   curl -sL https://raw.githubusercontent.com/rockberpro-labs/systemd-lsa/main/setup.sh | bash
 #
 # Manual install:
 #   echo 'source ~/.config/systemd-lsa/systemd-lsa.sh' >> ~/.bashrc && source ~/.bashrc

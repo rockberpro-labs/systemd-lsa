@@ -18,10 +18,10 @@ To install from a local clone instead of downloading, run [setup-local.sh](setup
 ```bash
 mkdir -p ~/.config/systemd-lsa
 
-curl -sL https://raw.githubusercontent.com/rockberpro-dev/systemd-lsa/main/systemd-lsa.sh \
+curl -sL https://raw.githubusercontent.com/rockberpro-labs/systemd-lsa/main/systemd-lsa.sh \
   -o ~/.config/systemd-lsa/systemd-lsa.sh
 
-curl -sL https://raw.githubusercontent.com/rockberpro-dev/systemd-lsa/main/systemd-lsa-help.sh \
+curl -sL https://raw.githubusercontent.com/rockberpro-labs/systemd-lsa/main/systemd-lsa-help.sh \
   -o ~/.config/systemd-lsa/systemd-lsa-help.sh && chmod +x ~/.config/systemd-lsa/systemd-lsa-help.sh
 
 echo 'source ~/.config/systemd-lsa/systemd-lsa.sh' >> ~/.bashrc

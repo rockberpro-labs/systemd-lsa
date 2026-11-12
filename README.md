@@ -11,7 +11,7 @@
 ## Install
 
 ```bash
-curl -sL https://raw.githubusercontent.com/rockberpro-dev/systemd-lsa/main/setup.sh | bash
+curl -sL https://raw.githubusercontent.com/rockberpro-labs/systemd-lsa/main/setup.sh | bash
 ```
 
 Then reload your shell:
